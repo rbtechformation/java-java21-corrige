@@ -1,4 +1,4 @@
-package java17.ex01;
+package java21.ex01;
 
 
 import static org.hamcrest.Matchers.is;
@@ -9,8 +9,8 @@ import java.util.Optional;
 
 import org.junit.Test;
 
-import java17.data.Data;
-import java17.data.Person;
+import java21.data.Data;
+import java21.data.Person;
 
 /**
  * Exercice 02 - Filter, Map
