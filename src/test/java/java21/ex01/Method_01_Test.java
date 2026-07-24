@@ -1,11 +1,11 @@
-package java17.ex01;
+package java21.ex01;
 
 import java.util.List;
 
 import org.junit.Test;
 
-import java17.data.Data;
-import java17.data.Person;
+import java21.data.Data;
+import java21.data.Person;
 
 
 /**
