@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>devinstitut</groupId>
-    <artifactId>java-java17</artifactId>
+    <groupId>rbtechformation</groupId>
+    <artifactId>java-java21</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -18,8 +18,8 @@
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
-                        <source>1.17</source>
-                        <target>1.17</target>
+                        <source>1.21</source>
+                        <target>1.21</target>
                     </configuration>
                 </plugin>
             </plugins>

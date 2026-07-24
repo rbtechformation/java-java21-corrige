@@ -1,4 +1,4 @@
-package java17.ex05;
+package java21.ex05;
 
 import org.junit.Test;
 

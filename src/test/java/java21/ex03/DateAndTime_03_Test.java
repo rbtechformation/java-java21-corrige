@@ -1,9 +1,8 @@
-package java17.ex03;
+package java21.ex03;
 
 import org.junit.Test;
 
 import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
