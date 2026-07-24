@@ -1,4 +1,4 @@
-package java17.ex05;
+package java21.ex05;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;

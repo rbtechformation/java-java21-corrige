@@ -1,4 +1,4 @@
-package java17.ex07;
+package java21.ex07;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 
 import org.junit.Test;
 
-import java17.data.Data;
-import java17.data.domain.Pizza;
+import java21.data.Data;
+import java21.data.domain.Pizza;
 
 /**
  * Exercice 08 - Stream Parallel - Collections

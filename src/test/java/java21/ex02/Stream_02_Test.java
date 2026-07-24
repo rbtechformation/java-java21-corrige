@@ -1,4 +1,4 @@
-package java17.ex02;
+package java21.ex02;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.hasSize;
@@ -9,9 +9,9 @@ import java.util.OptionalDouble;
 
 import org.junit.Test;
 
-import java17.data.Data;
-import java17.data.domain.Customer;
-import java17.data.domain.Order;
+import java21.data.Data;
+import java21.data.domain.Customer;
+import java21.data.domain.Order;
 
 /**
  * Exercice 02 - Transformation

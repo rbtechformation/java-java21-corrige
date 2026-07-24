@@ -1,4 +1,4 @@
-package java17.data.domain;
+package java21.data.domain;
 
 public class Customer {
 

@@ -1,4 +1,4 @@
-package java17.ex01;
+package java21.ex01;
 
 import static org.hamcrest.Matchers.anyOf;
 import static org.hamcrest.Matchers.equalTo;
@@ -14,9 +14,9 @@ import java.util.Optional;
 
 import org.junit.Test;
 
-import java17.data.Data;
-import java17.data.domain.Order;
-import java17.data.domain.Pizza;
+import java21.data.Data;
+import java21.data.domain.Order;
+import java21.data.domain.Pizza;
 
 /**
  * Exercice 01 - Recherche
