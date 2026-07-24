@@ -1,10 +1,10 @@
-package java17.ex02;
+package java21.ex02;
 
 import org.junit.Test;
 
-import java17.data.Account;
-import java17.data.Data;
-import java17.data.Person;
+import java21.data.Account;
+import java21.data.Data;
+import java21.data.Person;
 
 import java.util.ArrayList;
 import java.util.List;
