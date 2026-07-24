@@ -1,4 +1,4 @@
-package java17.ex07;
+package java21.ex07;
 
 import java.util.function.IntBinaryOperator;
 

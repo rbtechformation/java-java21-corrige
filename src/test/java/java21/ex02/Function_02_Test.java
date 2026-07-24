@@ -1,11 +1,11 @@
-package java17.ex02;
+package java21.ex02;
 
 import java.util.function.BiFunction;
 
 import org.junit.Test;
 
-import java17.data.Account;
-import java17.data.Person;
+import java21.data.Account;
+import java21.data.Person;
 
 /**
  * Exercice 02 - java.util.function.BiFunction

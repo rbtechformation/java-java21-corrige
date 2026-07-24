@@ -1,4 +1,4 @@
-package java17.ex05;
+package java21.ex05;
 
 import java.util.Comparator;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.function.Consumer;
 
 import org.junit.Test;
 
-import java17.data.Data;
-import java17.data.Person;
+import java21.data.Data;
+import java21.data.Person;
 
 import static org.junit.Assert.assertTrue;
 
