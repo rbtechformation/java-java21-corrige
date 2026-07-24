@@ -1,14 +1,15 @@
-package java21.ex02;
+package java25.ex02;
 
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import org.junit.jupiter.api.Test;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.temporal.UnsupportedTemporalTypeException;
 
-import org.junit.Test;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * Exercice 02 - LocalDate
@@ -67,7 +68,7 @@ public class DateAndTime_02_Test {
 		assertThat(result, is("11 - 03 - 2015"));
 	}
 
-	@Test(expected = UnsupportedTemporalTypeException.class)
+	@Test
 	public void test_localDate_format_with_hour() {
 
 		// TODO créer un objet LocalDate à la date 11/03/2015
@@ -75,7 +76,13 @@ public class DateAndTime_02_Test {
 		LocalDate localDate = null;
 
 		// TODO Formatter la date pour avoir l'affichage suivant : "11/03/2015 00:00:00"
-		localDate.format(null);
+		try {
+			localDate.format(null);
+			fail();
+		}
+		catch (UnsupportedTemporalTypeException e){
+			assertThat(e.getMessage()!=null, is(true));
+		}
 	}
 
 	@Test
