@@ -1,8 +1,8 @@
-package java21.ex07;
+package java25.ex07;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.function.IntBinaryOperator;
-
-import org.junit.Test;
 
 /**
  * Exercice 07 - java.util.function.IntBinaryOperator

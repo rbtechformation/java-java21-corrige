@@ -1,11 +1,10 @@
-package java21.ex06;
+package java25.ex06;
 
 
 import java.util.function.Supplier;
 
-import org.junit.Test;
-
-import java21.data.Person;
+import java25.data.Person;
+import org.junit.jupiter.api.Test;
 
 /**
  * Exercice 06 - java.util.function.Supplier

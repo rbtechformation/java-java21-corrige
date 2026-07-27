@@ -1,13 +1,12 @@
-package java21.ex04;
+package java25.ex04;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import org.junit.Test;
-
-import java21.data.Data;
-import java21.data.Person;
+import java25.data.Data;
+import java25.data.Person;
+import org.junit.jupiter.api.Test;
 
 /**
  * Exercice 4 - java.util.function.Predicate

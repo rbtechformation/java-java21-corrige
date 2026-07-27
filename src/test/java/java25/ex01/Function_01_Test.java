@@ -1,11 +1,10 @@
-package java21.ex01;
+package java25.ex01;
 
 import java.util.function.Function;
 
-import org.junit.Test;
-
-import java21.data.Account;
-import java21.data.Person;
+import java25.data.Account;
+import java25.data.Person;
+import org.junit.jupiter.api.Test;
 
 
 /**

@@ -1,15 +1,14 @@
-package java21.ex05;
+package java25.ex05;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
 
-import org.junit.Test;
+import java25.data.Data;
+import java25.data.Person;
+import org.junit.jupiter.api.Test;
 
-import java21.data.Data;
-import java21.data.Person;
-
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Exercice 5 - java.util.function.Consumer

@@ -1,10 +1,9 @@
-package java21.ex03;
+package java25.ex03;
 
 import java.util.function.BinaryOperator;
 
-import org.junit.Test;
-
-import java21.data.Person;
+import java25.data.Person;
+import org.junit.jupiter.api.Test;
 
 /**
  * Exercice 03 - java.util.function.BinaryOperator
