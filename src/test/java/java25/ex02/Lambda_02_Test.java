@@ -1,10 +1,9 @@
-package java21.ex02;
+package java25.ex02;
 
-import org.junit.Test;
-
-import java21.data.Account;
-import java21.data.Data;
-import java21.data.Person;
+import java25.data.Account;
+import java25.data.Data;
+import java25.data.Person;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;

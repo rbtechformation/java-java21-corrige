@@ -1,4 +1,4 @@
-package java21.data;
+package java25.data;
 
 public class Account {
 

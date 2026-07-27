@@ -1,10 +1,10 @@
-package java21.ex01;
+package java25.ex01;
 
 import org.apache.commons.codec.digest.DigestUtils;
-import org.junit.Test;
 
-import java21.data.Data;
-import java21.data.Person;
+import java25.data.Data;
+import java25.data.Person;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
