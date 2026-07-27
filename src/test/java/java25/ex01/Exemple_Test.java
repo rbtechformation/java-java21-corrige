@@ -1,8 +1,9 @@
-package java17.ex01;
+package java25.ex01;
 
-import static org.junit.Assert.fail;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * Exemple Test
@@ -11,6 +12,7 @@ public class Exemple_Test {
 	
 	@Test
 	public void testQuiEchoue() {
+
 		fail();
 	}
 
