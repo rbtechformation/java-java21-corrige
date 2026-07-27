@@ -1,4 +1,4 @@
-package java21.ex07;
+package java25.ex07;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -6,10 +6,9 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.logging.Logger;
 
-import org.junit.Test;
-
-import java21.data.Data;
-import java21.data.domain.Pizza;
+import java25.data.Data;
+import java25.data.domain.Pizza;
+import org.junit.jupiter.api.Test;
 
 /**
  * Exercice 08 - Stream Parallel - Collections

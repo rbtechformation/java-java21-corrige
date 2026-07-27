@@ -1,4 +1,4 @@
-package java21.data.domain;
+package java25.data.domain;
 
 import java.util.ArrayList;
 import java.util.List;

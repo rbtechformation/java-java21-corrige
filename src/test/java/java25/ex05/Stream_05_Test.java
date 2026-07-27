@@ -1,23 +1,21 @@
-package java21.ex05;
+package java25.ex05;
 
+import org.junit.jupiter.api.Test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
 
 import java.util.function.Consumer;
-import java.util.function.UnaryOperator;
 import java.util.logging.Logger;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
-
-import org.junit.Test;
-
 
 /**
  * Exercice 06 - Stream Parallel
  */
 public class Stream_05_Test {
 
-    private static final long NB = 100_000_000;
+    private static final long NB = 50_000_000;
 
     // Soit une méthode impérative qui permet de construire une somme des chiffres de 1 à n
     private long imperativeSum(long n) {

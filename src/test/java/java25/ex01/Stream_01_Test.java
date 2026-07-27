@@ -1,5 +1,6 @@
-package java21.ex01;
+package java25.ex01;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.anyOf;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.everyItem;
@@ -7,16 +8,14 @@ import static org.hamcrest.Matchers.greaterThan;
 import static org.hamcrest.Matchers.hasProperty;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
 
 import java.util.List;
 import java.util.Optional;
 
-import org.junit.Test;
-
-import java21.data.Data;
-import java21.data.domain.Order;
-import java21.data.domain.Pizza;
+import java25.data.Data;
+import java25.data.domain.Order;
+import java25.data.domain.Pizza;
+import org.junit.jupiter.api.Test;
 
 /**
  * Exercice 01 - Recherche

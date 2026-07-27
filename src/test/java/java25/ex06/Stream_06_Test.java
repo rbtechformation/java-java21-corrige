@@ -1,13 +1,13 @@
-package java21.ex06;
+package java25.ex06;
 
+import org.junit.jupiter.api.Test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
 
 import java.util.logging.Logger;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
-
-import org.junit.Test;
 
 /**
  * Exercice 07 - Stream Parallel - Effet de bord

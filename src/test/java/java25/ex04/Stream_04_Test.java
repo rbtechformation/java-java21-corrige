@@ -1,12 +1,12 @@
-package java21.ex04;
+package java25.ex04;
 
 
+import org.junit.jupiter.api.Test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.arrayContaining;
-import static org.junit.Assert.assertThat;
 
 import java.util.stream.Stream;
-
-import org.junit.Test;
 
 /**
  * Exercice 04 - Stream
@@ -26,7 +26,7 @@ public class Stream_04_Test {
 
         // TODO compléter pour rendre le test passant
         // TODO utiliser la méthode "add"
-        Stream<Object> result = Stream.builder().add("Alexandra").build();
+        Stream<Object> result = Stream.builder().add("Alexandra").add("Cyril").add("Johnny").add("Marion").add("Sophie").build();
 
         assertThat(result.toArray(), arrayContaining("Alexandra", "Cyril", "Johnny", "Marion", "Sophie"));
     }

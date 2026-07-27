@@ -1,4 +1,4 @@
-package java21.data.domain;
+package java25.data.domain;
 
 public enum Gender {
     M, F

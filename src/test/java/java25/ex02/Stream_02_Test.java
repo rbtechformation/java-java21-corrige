@@ -1,17 +1,16 @@
-package java21.ex02;
+package java25.ex02;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasSize;
-import static org.junit.Assert.assertThat;
 
 import java.util.List;
 import java.util.OptionalDouble;
 
-import org.junit.Test;
-
-import java21.data.Data;
-import java21.data.domain.Customer;
-import java21.data.domain.Order;
+import java25.data.Data;
+import java25.data.domain.Customer;
+import java25.data.domain.Order;
+import org.junit.jupiter.api.Test;
 
 /**
  * Exercice 02 - Transformation

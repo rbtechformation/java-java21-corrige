@@ -1,8 +1,8 @@
-package java21.ex03;
+package java25.ex03;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
 
 import java.util.Comparator;
 import java.util.List;
@@ -10,12 +10,11 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import org.junit.Test;
-
-import java21.data.Data;
-import java21.data.domain.Customer;
-import java21.data.domain.Order;
-import java21.data.domain.Pizza;
+import java25.data.Data;
+import java25.data.domain.Customer;
+import java25.data.domain.Order;
+import java25.data.domain.Pizza;
+import org.junit.jupiter.api.Test;
 
 /**
  * Exercice 03 - Collectors

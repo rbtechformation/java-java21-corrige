@@ -1,4 +1,4 @@
-package java21.data;
+package java25.data;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,10 +6,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import java21.data.domain.Customer;
-import java21.data.domain.Gender;
-import java21.data.domain.Order;
-import java21.data.domain.Pizza;
+import java25.data.domain.Customer;
+import java25.data.domain.Gender;
+import java25.data.domain.Order;
+import java25.data.domain.Pizza;
 
 public class Data {
 
